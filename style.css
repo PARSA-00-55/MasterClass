@@ -14,7 +14,7 @@
   font-size: 18px;
   line-height: 1.9;
 }
-.carousel-body:before {
+.carousel-body::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -23,4 +23,78 @@
   left: 0;
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
+}
+
+/* responsive CSS */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .carousel-info {
+    bottom: 100px;
+  }
+  .carousel-info > p {
+    width: 100%;
+  }
+}
+/* tab view */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-info {
+    bottom: 40px;
+  }
+  .carousel-info > p {
+    width: 100%;
+  }
+}
+
+/* mobile view */
+@media only screen and (max-width: 767px) {
+  .carousel-info {
+    bottom: 25px;
+  }
+  .carousel-info h1 {
+    font-size: 24px;
+  }
+  .carousel-info a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .carousel-info p {
+    width: 100%;
+    line-height: 1;
+    font-size: 16px;
+  }
+  .carousel-info .btn {
+    font-size: 10px;
+    padding: 4px 4px;
+  }
+  .course-title {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  .course-title > h1 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .course-title > p {
+    width: 100%;
+    line-height: 1;
+    font-size: 18px;
+  }
+  .course-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .course-img {
+    width: 100%;
+  }
+
+  .course-img > img {
+    width: 100%;
+    max-height: 80%;
+  }
+  .course-btn .btn {
+    font-size: 14px;
+    padding: 3px 3px;
+  }
 }
