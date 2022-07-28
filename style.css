@@ -42,6 +42,14 @@
   .carousel-info > p {
     width: 100%;
   }
+  .modal-card {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+  }
+  .modal-btn {
+    margin-top: 20px;
+  }
 }
 
 /* mobile view */
@@ -96,5 +104,13 @@
   .course-btn .btn {
     font-size: 14px;
     padding: 3px 3px;
+  }
+  .modal-card {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  .modal-btn {
+    margin-top: 25px;
   }
 }
