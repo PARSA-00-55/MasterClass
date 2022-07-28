@@ -24,6 +24,13 @@
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
+footer {
+  margin-top: 5rem;
+  width: 100%;
+  padding: 10rem;
+  background-color: black;
+  color: antiquewhite;
+}
 
 /* responsive CSS */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
