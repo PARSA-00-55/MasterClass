@@ -33,9 +33,9 @@ footer {
 }
 
 /* responsive CSS */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) {
   .carousel-info {
-    bottom: 100px;
+    bottom: 170px;
   }
   .carousel-info > p {
     width: 100%;
@@ -62,10 +62,11 @@ footer {
 /* mobile view */
 @media only screen and (max-width: 767px) {
   .carousel-info {
-    bottom: 25px;
+    bottom: 40px;
   }
   .carousel-info h1 {
-    font-size: 24px;
+    font-size: 0.8rem;
+    line-height: 0.7;
   }
   .carousel-info a {
     padding: 10px 15px;
@@ -74,11 +75,10 @@ footer {
   .carousel-info p {
     width: 100%;
     line-height: 1;
-    font-size: 16px;
+    font-size: 0.5rem;
   }
   .carousel-info .btn {
-    font-size: 10px;
-    padding: 4px 4px;
+    font-size: 0.5em;
   }
   .course-title {
     padding-top: 0;
@@ -88,7 +88,7 @@ footer {
   .course-title > h1 {
     width: 100%;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
   }
   .course-title > p {
